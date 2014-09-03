@@ -1,0 +1,16 @@
+{
+    "name": "flexpress/plugin-bitly",
+    "description": "FlexPress based plugin",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "require": {
+        "pimple/pimple": "2.0.*",
+        "flexpress/component-plugin": "1.0.*",
+        "flexpress/component-hooks": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FlexPress\\Plugins\\Bitly\\": "src/FlexPress/Plugins/Bitly"
+        }
+    }
+}
